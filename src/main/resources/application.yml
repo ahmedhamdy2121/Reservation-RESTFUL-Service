@@ -1,0 +1,46 @@
+# @author Ahmed Hamdy
+server:
+  port: 8080
+spring:    
+  application:
+    name: EA_Project
+  security:
+    user:
+      name: admin
+      password: admin
+  datasource:
+    url: jdbc:mysql://localhost/ea_project?serverTimezone=America/Chicago
+    username: eaproject
+    password: admin
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    open-in-view: true
+    show-sql: true
+    hibernate:
+      # only enable this for the first time to create your DB
+      # ddl-auto: create
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+
+mail:
+  default-encoding: UTF-8
+  host: smtp.gmail.com
+  username: <login user to smtp server>
+  password: <login user to smtp server>
+  port: 587
+  properties:
+    mail:
+      smtp:
+        auth: true
+        starttls:
+          enable: true
+  protocol: smtp
+  test-connection: false
+
+
