@@ -1,4 +1,4 @@
-# EA Project
+# EA Project: Reservation Portal
 [![Build Status](https://dev.azure.com/ahmedahamdy90/EA%20Project/_apis/build/status/EA_Project?branchName=master)](https://dev.azure.com/ahmedahamdy90/EA%20Project/_build/latest?definitionId=2&branchName=master)
 
 Repository link: [https://dev.azure.com/ahmedahamdy90/EA%20Project](https://dev.azure.com/ahmedahamdy90/EA%20Project).
